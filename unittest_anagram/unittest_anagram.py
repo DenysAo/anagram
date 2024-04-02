@@ -1,5 +1,5 @@
 import unittest
-from anagram.anagram.anagram import reverse_words
+from anagram import reverse_words
 
 class TestReverseWords(unittest.TestCase):
     def test_single_word(self):
